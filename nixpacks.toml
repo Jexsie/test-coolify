@@ -9,4 +9,4 @@ cmds = [
 cmds = ["yarn build"]
 
 [start]
-cmd = "yarn dev"
+cmd = "yarn preview"
