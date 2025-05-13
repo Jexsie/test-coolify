@@ -1,3 +1,6 @@
+[phases.setup]
+aptPkgs = ["yarn-4_x"]
+
 [phases.install]
 cmds = ["yarn install"]
 
