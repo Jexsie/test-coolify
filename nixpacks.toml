@@ -1,11 +1,7 @@
-[phases.setup]
-aptPkgs = ["corepack"]
-
 [phases.install]
 cmds = [
-  "corepack enable",
-  "corepack prepare yarn@stable --activate",
-  "yarn install"
+ "corepack enable"
+ "yarn install"
 ]
 
 [phases.build]
