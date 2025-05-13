@@ -1,5 +1,5 @@
 [phases.setup]
-aptPkgs = ["nodejs", "corepack"]
+aptPkgs = ["corepack"]
 
 [phases.install]
 cmds = [
@@ -12,5 +12,5 @@ cmds = [
 cmds = ["yarn build"]
 
 [start]
-  cmd = "yarn dev"
+cmd = "yarn dev"
 
