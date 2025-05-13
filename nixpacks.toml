@@ -1,12 +1,9 @@
 [phases.install]
-cmds = [
- "corepack enable"
- "yarn install"
-]
+cmds = ["yarn install"]
 
 [phases.build]
 cmds = ["yarn build"]
 
 [start]
-cmd = "yarn dev"
+cmd = ["yarn dev"]
 
