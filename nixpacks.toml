@@ -3,8 +3,8 @@ aptPkgs = ["yarn-4_x"]
 
 [phases.install]
 cmds = [
-    "corepack enable"
-    "corepack prepare yarn@4.9.1 --activate"
+    "corepack enable",
+    "corepack prepare yarn@4.9.1 --activate",
     "yarn install"
     ]
 
